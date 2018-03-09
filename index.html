@@ -1,10 +1,23 @@
 <!DOCTYPE html>
 <html>
-    <body>
-        <h1>Test</h1>
-        <p>
-            TestTestTestTestTestTestTestTestTest
-        </p>
+    <head>
+        <meta name="viewport" content="device=device-width,initial-scale=1" />
+        <style>
+            .parallax
+            {
+                background-image: url("images/misty_mountains-wallpaper-1920x1080.jpg");
 
+                min-height: 500px;
+
+                background-attachment:fixed;
+                background-position:center;
+                background-repeat:no-repeat;
+                background-size:cover;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="parallax"></div>
+        <div style="height:500px;background-color:white;font-size:12px"></div>
     </body>
 </html>
