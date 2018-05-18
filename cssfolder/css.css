@@ -12,7 +12,7 @@ body {
 header {
     width: 100%;
     height: 100vh;
-    background: url(/imgfolder/forest.jpg) no-repeat 50% 50%;
+    background: url(imgfolder/forest.jpg) no-repeat 50% 50%;
     background-size: cover;
     font-family: 'Oswald', sans-serif;
 }
@@ -46,6 +46,7 @@ nav {
     position: fixed;
     width: 100%;
     line-height: 60px;
+    z-index:1;
 }
 
     nav ul {
